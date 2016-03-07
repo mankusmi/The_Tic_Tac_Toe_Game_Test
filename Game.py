@@ -100,5 +100,5 @@ def human_move(board,human):
     return move
 def computer_move(board,computer,human):
     """Make computer move."""
-    # make a copy to wok with since function will be changing list
+    # make a copy to work with since function will be changing list
     board = board[:]
